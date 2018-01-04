@@ -8,7 +8,7 @@ This repository provides a simple function to estimate carrier
 carrier concentrations, resulting from a material being subjected to the AM1.5G
 solar spectrum. Only the absorption spectra of the material is required as input.
 
-A full explanation of the code is provided in a jupyter notebook:
+A full explanation of the code is provided in a [jupyter notebook](https://github.com/utf/alpha2conc/blob/master/tutorial_notebook.ipynb)
 
 Usage
 -----
