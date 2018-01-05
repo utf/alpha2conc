@@ -15,8 +15,7 @@ A full explanation of the code is provided in a [jupyter notebook](https://githu
 Usage
 -----
 
-The `abs2conc.py` contains the python code required to calculate the carrier
-concentration based on the absorption spectra of material.
+The `alpha2conc.py` file contains the python code with the necessary function.
 
 A jupyter notebook has been provided, which gives a tutorial on how the script
 should be used.
