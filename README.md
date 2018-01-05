@@ -4,9 +4,11 @@ README
 Introduction
 ------------
 
-This repository provides a simple function to estimate carrier
-carrier concentrations, resulting from a material being subjected to the AM1.5G
-solar spectrum. Only the absorption spectra of the material is required as input.
+This repository provides a simple function to calculate photoexcited
+carrier concentrations due to the AM1.5G solar spectrum, based on a
+materials optical absorption. The carrier concentrations are calculated
+for a specific thickness of material (considering generation will decay
+exponentially into the material) and carrier lifetime (tau).
 
 A full explanation of the code is provided in a jupyter notebook:
 
@@ -22,9 +24,8 @@ should be used.
 Requirements
 ------------
 
-This script is currently compatible with Python 3.5.
-Numpy is required for matrix operations and pvpy is required for
-obtaining the AM1.5G spectrum in units of photon flux.
+This script is currently compatible with Python 2.7 and Python 3+.
+Numpy is required for matrix operations.
 
 License
 -------
