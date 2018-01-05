@@ -10,7 +10,7 @@ materials optical absorption. The carrier concentrations are calculated
 for a specific thickness of material (considering generation will decay
 exponentially into the material) and carrier lifetime (tau).
 
-A full explanation of the code is provided in a jupyter notebook:
+A full explanation of the code is provided in a [jupyter notebook](https://github.com/utf/alpha2conc/blob/master/tutorial_notebook.ipynb)
 
 Usage
 -----
